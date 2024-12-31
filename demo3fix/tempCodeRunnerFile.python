@@ -1,0 +1,19 @@
+# Define pure functions for each button's functionality
+def handle_home_action():
+    return "Home selected"
+
+def handle_transaksi_action():
+    return "Transaksi selected"
+
+def handle_notifikasi_action():
+    return "Notifikasi selected"
+
+def handle_akun_action():
+    return "Akun Saya selected"
+
+# Example usage
+if __name__ == "__main__":
+    print(handle_home_action())       # Output: Home selected
+    print(handle_transaksi_action())   # Output: Transaksi selected
+    print(handle_notifikasi_action())  # Output: Notifikasi selected
+    print(handle_akun_action())        # Output: Akun Saya selected
